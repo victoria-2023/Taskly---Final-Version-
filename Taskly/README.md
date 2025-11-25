@@ -289,7 +289,7 @@ The scheduler provides intelligent study time suggestions based on:
 
 All data is stored locally in the browser using localStorage:
 
-```javascript
+```JavaScript
 // Authentication
 localStorage.setItem("taskly_authenticated", "true");
 
@@ -327,22 +327,6 @@ localStorage.setItem("taskly_settings", JSON.stringify({...}));
 - ✅ Export/clear data anytime in Settings
 
 ## 🌐 Deployment
-
-### Deploy to Vercel (Recommended)
-
-1. **Push to GitHub**
-   ```bash
-   git add .
-   git commit -m "Initial commit"
-   git push origin main
-   ```
-
-2. **Deploy on Vercel**
-   - Visit [vercel.com](https://vercel.com)
-   - Click "New Project"
-   - Import your GitHub repository
-   - Click "Deploy"
-   - Done! 🎉
 
 ### Deploy to Netlify
 
@@ -454,10 +438,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 ## 📄 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
-## 📧 Contact
-
-For questions or support, please open an issue on GitHub.
 
 ---
 
